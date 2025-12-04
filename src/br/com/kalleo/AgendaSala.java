@@ -20,7 +20,7 @@ public class AgendaSala {
 
         System.out.println(lo.getInativas());
 
-        // transforma os Sets em Lists para poder usar índice
+
         List<String> listaAgendados = new ArrayList<>(agendados);
         List<String> listaGuardaSalas = new ArrayList<>(guardaSalas);
 
@@ -29,7 +29,7 @@ public class AgendaSala {
                     String dadosUsuario = listaAgendados.get(i);
                     String dadosSala = listaGuardaSalas.get(i);
 
-                    // aqui você usa os dois juntos
+
                     System.out.println(dadosUsuario);
                     System.out.println(dadosSala);
                     System.out.println("----------------");
